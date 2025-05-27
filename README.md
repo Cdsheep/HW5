@@ -1,1 +1,2 @@
-# HW5
+
+This repository contains Python code for solving two recommendation system problems based on the MovieLens 100k dataset, involving user-based collaborative filtering analysis: Problem 1 uses Pandas to build a user-item rating matrix, employs cosine similarity to find 10 similar users for user 1, and predicts their rating for item 508 as 4.20; Problem 2 compares the cosine similarities (0.0890 and 0.1305 respectively) and Euclidean distances (6.9553 and 7.8602 respectively) between users 200/15 and movie 95, and recommends movie 95 to user 15 based on the higher similarity. The code requires downloading the dataset and installing dependencies like pandas and numpy before running.
